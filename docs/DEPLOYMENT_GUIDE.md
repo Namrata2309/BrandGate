@@ -48,7 +48,7 @@ Set the health check path to `/health`. Render documents that a public web servi
 Create a project from the same repository and set the project root to `frontend` (or your actual Next.js root if you run it at repository root). Configure:
 
 ```env
-NEXT_PUBLIC_API_BASE_URL=https://YOUR-BACKEND-HOST
+NEXT_API_BASE_URL=https://YOUR-BACKEND-HOST
 ```
 
 Replace the placeholder with the deployed backend base URL and do not add a trailing path such as `/api`. The existing client should append its endpoint paths. Redeploy after changing environment variables.

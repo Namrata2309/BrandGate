@@ -4,7 +4,7 @@ import { FormEvent, useCallback, useEffect, useState } from 'react';
 import Link from 'next/link';
 import { AppShell, PageIntro } from '@/components/app-shell';
 
-const API_BASE = (process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8000').replace(/\/$/, '');
+const API_BASE = (process.env.NEXT_API_BASE_URL || 'http://localhost:8000').replace(/\/$/, '');
 
 type BrandRule = {
   id: number;
