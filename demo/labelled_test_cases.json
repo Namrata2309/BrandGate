@@ -1,0 +1,39 @@
+{
+  "brand_name": "Northstar Workspace",
+  "description": "Small, labelled regression set for BrandGate. Uses fictional demo material and verifies local checks plus retrieval; contextual LLM findings are checked through mocked tests and the live demo separately.",
+  "top_k": 5,
+  "cases": [
+    {
+      "case_id": "TERM-001",
+      "title": "Non-approved product name is flagged",
+      "content": "Try our Dashboard today to keep your team organised.",
+      "retrieval_query": "official product name Dashboard substitute product name",
+      "expected_local_source_ids": ["BG-002"],
+      "expected_retrieved_source_ids": ["BG-002"]
+    },
+    {
+      "case_id": "FACT-001",
+      "title": "Incorrect monthly price is flagged",
+      "content": "Get access for only ₹799 per month.",
+      "retrieval_query": "approved monthly subscription price in INR per month",
+      "expected_local_source_ids": ["FACT-001"],
+      "expected_retrieved_source_ids": ["FACT-001"]
+    },
+    {
+      "case_id": "CLAIM-001",
+      "title": "Unsupported guarantee policy is retrievable",
+      "content": "Our software guarantees every business will double its sales.",
+      "retrieval_query": "guaranteed sales revenue productivity business outcomes promotional claims",
+      "expected_local_source_ids": [],
+      "expected_retrieved_source_ids": ["BG-003"]
+    },
+    {
+      "case_id": "CLEAN-001",
+      "title": "Approved product name and price do not trigger local issues",
+      "content": "Northstar Workspace helps teams organise projects. Get access for ₹999 per month.",
+      "retrieval_query": "Northstar Workspace approved monthly subscription price 999 INR",
+      "expected_local_source_ids": [],
+      "expected_retrieved_source_ids": ["BG-002", "FACT-001"]
+    }
+  ]
+}

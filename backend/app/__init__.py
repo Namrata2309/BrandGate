@@ -1,0 +1,1 @@
+"""BrandGate backend application package."""

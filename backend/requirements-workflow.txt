@@ -1,0 +1,4 @@
+# Phase 4 adds no new runtime dependencies; these are already required by Phases 1-3.
+SQLAlchemy>=2.0
+fastapi>=0.110
+pydantic>=2.6

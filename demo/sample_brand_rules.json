@@ -1,0 +1,96 @@
+{
+  "brand_name": "Northstar Workspace",
+  "description": "Fictional sample brand for demonstrating BrandGate. Do not treat these as real company facts.",
+  "rules": [
+    {
+      "rule_code": "BG-001",
+      "category": "tone",
+      "title": "Friendly and clear brand voice",
+      "rule_text": "Use friendly, clear and professional language. Avoid exaggerated, absolute or sensational promises.",
+      "source": "Northstar Brand Guide",
+      "source_section": "Section 2 - Voice and tone",
+      "severity": "warning",
+      "status": "active",
+      "effective_date": "2026-10-01"
+    },
+    {
+      "rule_code": "BG-002",
+      "category": "terminology",
+      "title": "Use the approved product name",
+      "rule_text": "Refer to the main product as Northstar Workspace. Do not use Dashboard as a substitute product name.",
+      "source": "Northstar Terminology Guide",
+      "source_section": "Section 1 - Product naming",
+      "severity": "warning",
+      "status": "active",
+      "effective_date": "2026-10-01"
+    },
+    {
+      "rule_code": "BG-003",
+      "category": "promotional_claim",
+      "title": "Avoid unsupported guaranteed outcomes",
+      "rule_text": "Do not promise guaranteed sales, revenue, productivity or business outcomes unless the exact claim has current approved evidence.",
+      "source": "Northstar Claims Policy",
+      "source_section": "Section 4 - Promotional claims",
+      "severity": "high",
+      "status": "active",
+      "effective_date": "2026-10-01"
+    },
+    {
+      "rule_code": "BG-004",
+      "category": "messaging",
+      "title": "Describe benefits without overstating certainty",
+      "rule_text": "Describe product capabilities accurately. Prefer qualified language such as 'designed to help' when a measurable result is not guaranteed by approved evidence.",
+      "source": "Northstar Brand Guide",
+      "source_section": "Section 3 - Messaging principles",
+      "severity": "warning",
+      "status": "active",
+      "effective_date": "2026-10-01"
+    },
+    {
+      "rule_code": "BG-005",
+      "category": "accessibility",
+      "title": "Maintain readable text contrast",
+      "rule_text": "For ordinary text, target at least a 4.5:1 contrast ratio against its actual background, subject to applicable WCAG exceptions.",
+      "source": "Northstar Accessibility Guide",
+      "source_section": "Section 1 - Text contrast",
+      "severity": "warning",
+      "status": "active",
+      "effective_date": "2026-10-01"
+    },
+    {
+      "rule_code": "BG-006",
+      "category": "visual_identity",
+      "title": "Use approved brand assets",
+      "rule_text": "Use only approved logo and brand assets. Do not recolour or distort the supplied logo.",
+      "source": "Northstar Visual Identity Guide",
+      "source_section": "Section 1 - Logo use",
+      "severity": "warning",
+      "status": "active",
+      "effective_date": "2026-10-01"
+    }
+  ],
+  "facts": [
+    {
+      "fact_code": "FACT-001",
+      "name": "Monthly subscription price",
+      "value": "999",
+      "unit": "INR/month",
+      "source": "Northstar Approved Product Facts",
+      "source_section": "Pricing",
+      "valid_from": "2026-10-01",
+      "valid_until": null,
+      "status": "active"
+    },
+    {
+      "fact_code": "FACT-002",
+      "name": "Official product name",
+      "value": "Northstar Workspace",
+      "unit": null,
+      "source": "Northstar Approved Product Facts",
+      "source_section": "Product identity",
+      "valid_from": "2026-10-01",
+      "valid_until": null,
+      "status": "active"
+    }
+  ]
+}

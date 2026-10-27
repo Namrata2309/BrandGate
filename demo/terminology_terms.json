@@ -1,0 +1,13 @@
+{
+  "description": "Explicit lexical checks for the fictional Northstar Workspace demo brand. Keep each entry linked to an active BrandRule rule_code.",
+  "terms": [
+    {
+      "term": "Dashboard",
+      "replacement": "Northstar Workspace",
+      "rule_code": "BG-002",
+      "reason": "Use the approved product name. The terminology guide says not to use 'Dashboard' as a substitute product name.",
+      "whole_word": true,
+      "case_sensitive": false
+    }
+  ]
+}
